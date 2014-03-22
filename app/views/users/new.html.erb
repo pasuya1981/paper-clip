@@ -1,0 +1,13 @@
+
+
+<div class="form-centered row">
+    <%= simple_form_for @user do |f| %>
+      <%= f.error_notification %>
+      <%= f.input :name, label: '名字' %>
+      <%= f.input :email, label: '郵件' %>
+      <%= f.input :password, label: '密碼' %>
+      <%= f.input :password_confirmation, label: '密碼確認' %>
+      <%= f.submit '送出', class: 'submit' %>
+    <% end %>
+  </div>
+</div>

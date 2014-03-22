@@ -1,6 +1,8 @@
 // import the CSS framework
 @import "foundation";
 
+main { padding-top: 50px; }
+
 // override for the 'Home' navigation link
 .top-bar .name {
   font-size: rem-calc(13);
